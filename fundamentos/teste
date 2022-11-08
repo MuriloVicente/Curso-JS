@@ -1,0 +1,6 @@
+let calculoArea = (num) => {
+    const area = Math.PI * Math.pow(num, 2)
+    return area
+}
+
+console.log(calculoArea(3).toFixed(2))
